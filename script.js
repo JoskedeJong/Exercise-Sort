@@ -1,15 +1,21 @@
-function sortFunction(){                            // function to push entries in html field to string
-    var toSortString = [];
-    var x = document.getElementsByClassName("entryfield")[0].innerHTML;
-    // console.log(x);
-    toSortString.push(x);
-    console.log(toSortString);
+var namesArray = ["Elber", "Adrien", "Frederick", "Bernard", "Quirien"]; 
+var entries = [];
+var entriesOutput = [];
 
+for (x=0; x<namesArray.length; x++){
+    entries.push("<li>"+namesArray[x]+"</li>");
+    console.log(entries);
+    document.getElementsByClassName("entryList")[0].innerHTML = entries;
+}
 
-    toSortString.sort();                            // function to sort entries               
-    console.log(toSortString);
+function sortFunction(){                            
 
+    namesArray.sort();                            // function to sort entries               
+    console.log(namesArray);
 
-    var y = toSortString;                           // function to move sorted entries into output field
-    document.getElementsByClassName("outputfield")[0].innerHTML = y;
+    for (y=0; y<namesArray.length; y++){
+        entriesOutput.push("<li>"+namesArray[y]+"</li>")
+        console.log(entriesOutput);
+        document.getElementsByClassName("outputList")[0].innerHTML = entriesOutput;
+    }
 }
