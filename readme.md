@@ -11,26 +11,12 @@ Goal: make a sorting page in 1 hour. The page will have an input field of random
 
 ####  Planning:
 start: 09.20
-* [ ] 5 minutes: planning
+* [x] 5 minutes: planning
 * [ ] 35 minutes: structural development
-* * [ ] 5 minutes: set up html
+* * x] 5 minutes: set up html
 * * [ ] 12 minutes: set up push to array
 * * [ ] 12 minutes: set up sorting
 * * [ ] 5 minutes: set up place in field 2
 * [ ] 15 minutes: styling
 * [ ] 5 minutes: buffer
-
-
-#### Development Goals
-* [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
-
-
-#### Personal goals
-* [ ] 
-* [ ] 
-
 
