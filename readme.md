@@ -17,6 +17,6 @@ start: 09.20
 * * [x] 12 minutes: set up push to array 09.52/done 09.49
 * * [ ] 12 minutes: set up sorting 10.04
 * * [x] 5 minutes: set up place in field 2
-* [ ] 15 minutes: styling
-* [ ] 5 minutes: buffer
+* [x] 15 minutes: styling
+* [x] 5 minutes: buffer
 

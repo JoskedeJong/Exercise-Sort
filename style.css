@@ -1,0 +1,25 @@
+.title{
+    background-color: bisque;
+    text-align: center;
+    font-size: 300%;
+}
+
+/* [class~=field]{
+    background-color: azure;
+} */
+
+.entryfield{
+    background-color: rgb(225, 245, 245);
+    width: 100%;
+    min-height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.outputfield{
+    background-color: rgb(225, 245, 245);
+    width: 100%;
+    min-height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
